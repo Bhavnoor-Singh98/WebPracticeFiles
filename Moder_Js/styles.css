@@ -1,0 +1,11 @@
+.success{
+    padding: 10px;
+    color: green;
+    border: 2px dotted ;
+}
+
+.error{
+    padding: 10px;
+    color: red;
+    border: 2px dotted ;
+}
