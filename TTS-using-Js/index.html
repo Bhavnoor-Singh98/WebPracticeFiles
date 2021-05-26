@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Text to Speech Webpage</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <!--using defer the script is loaded after html is parsed-->
+    <script src="function.js" defer></script>
+</head>
+<body>
+            <h1>Make Your Device Speak!!</h1>
+            <textarea  id="text" placeholder="Write your Text Here and Click on Play Button"></textarea>
+            <label for="speed" class="sp">Speed</label>
+            <input type="number" name="spee" id="speed" min=".5" max="3" step=".5" value="1">
+            <button id="play-button">Play</button>
+            <button id="pause-button">Pause</button>
+            <button id="stop-button">Stop</button>
+    
+</body>
+</html>
