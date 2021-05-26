@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="s.css" rel="stylesheet" />
+	<title>JavaScript DOM Practice</title>
+		<!--script is written here at the bottom :- most of the DOM is loaded when it comes to the
+	 if script goes on top nothinmg works unless we apply DOMComntent loaded in JS File--> 
+     <script src="myjs.js"></script>        
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">My Book List</h1>
+		  <p>Books for Everyone...</p>
+		  <br>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="book-list">
+	    	<h2 class="title">Books to Read</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">Elements of Programming</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">The Wise Man's Fear</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Applied Chemistry</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">The Master and the Margarita</span>
+	    			<span class="delete">delete</span>
+				</li>
+				<li>
+	    			<span class="name">Myway Phonodrill</span>
+	    			<span class="delete">delete</span>
+                </li>
+                <li>
+	    			<span class="name">The C++ Master</span>
+	    			<span class="delete">delete</span>
+                </li>
+                <li>
+	    			<span class="name">Introduction to Indian History</span>
+	    			<span class="delete">delete</span>
+                </li>
+                <li>
+	    			<span class="name">Learning Python</span>
+	    			<span class="delete">delete</span>
+                </li>
+                
+	    	</ul>
+	    </div>
+	    <form id="add-book">
+			<input type="checkbox" id='hide'/>
+			<label for="hide">Hide All Books</label>
+	    	<input type="text" placeholder="Add a book..." />
+	    	<button>Add</button>
+	    </form>
+		
+	</div>
+    
+
+  </body>
+</html>
